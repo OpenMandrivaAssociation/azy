@@ -27,6 +27,7 @@ Group:		Graphical desktop/Enlightenment
 URL:		http://www.enlightenment.org/
 Source0:	%{name}-%{version}.tar.xz
 BuildRequires:  byacc
+BuildRequires:  re2c
 BuildRequires:  pkgconfig(ecore)
 BuildRequires:  pkgconfig(eina)
 
@@ -67,7 +68,7 @@ rm -fr %{buildroot}
 %makeinstall
 
 %files -n %{libname}
-%{_libdir}/libazy.so.%{major}*
+%{_libdir}/libazy*.so.%{major}*
 
 %files -n %{develname}
 %doc AUTHORS COPYING README
