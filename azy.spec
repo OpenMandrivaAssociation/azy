@@ -11,8 +11,8 @@
 #cd ..; \
 #tar -Jcf azy-$PKG_VERSION.tar.xz azy/ --exclude .svn --exclude .*ignore
 
-%define svndate 20120103
-%define svnrev  66485
+%define svndate 20121010
+%define svnrev  77508
 
 %define major 1
 %define libname %mklibname %{name} %{major}
