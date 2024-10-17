@@ -24,7 +24,7 @@ Version:	1.0.0.%{svnrev}
 Release:	0.%{svndate}.1
 License:	BSD
 Group:		Graphical desktop/Enlightenment
-URL:		http://www.enlightenment.org/
+URL:		https://www.enlightenment.org/
 Source0:	%{name}-%{version}.tar.xz
 Source1:	azy.rpmlintrc
 BuildRequires:  byacc
