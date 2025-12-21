@@ -27,6 +27,11 @@ Group:		Graphical desktop/Enlightenment
 URL:		https://www.enlightenment.org/
 Source0:	%{name}-%{version}.tar.xz
 Source1:	azy.rpmlintrc
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  byacc
 BuildRequires:  re2c
 BuildRequires:  pkgconfig(ecore)
